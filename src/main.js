@@ -6,10 +6,11 @@ import 'vue-material/dist/vue-material.min.css'
 import 'vue-material/dist/theme/default.css'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 
 library.add(faGithub, faInstagram)
-
+Vue.component('font-awesome-icon', FontAwesomeIcon);
 
 Vue.config.productionTip = false
 Vue.use(VueFullPage)
