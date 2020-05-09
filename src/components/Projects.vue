@@ -3,7 +3,7 @@
     <h1>Past projects</h1>
     <div>
       <div v-for="project in projects" v-bind:key="project.id">
-        <md-card>
+        <md-card @click.native="myGo(project)" md-with-hover>
           <md-card-header>
             <div class="md-title">{{project.name}}</div>
           </md-card-header>
@@ -30,6 +30,11 @@ export default {
     axios.get('https://api.github.com/users/alexh65/repos')
     .then(res => this.projects = res.data)
     .catch(err => err.console.log("Problem with getting github projects: " + err))
+  },
+  methods: {
+    myGo: (project) => {
+      window.location.href=project.html_url
+    }
   }
 }
 </script>
