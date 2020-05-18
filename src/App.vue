@@ -3,6 +3,7 @@
     <Header/>
     <full-page ref="fullpage" :options="options" id="fullpage">
       <Home class="section"/>
+      <Time class="section"/>
       <Projects class="section"/>
     </full-page>
   </div>
@@ -12,13 +13,14 @@
 import Header from './components/Header'
 import Home from './components/Home'
 import Projects from './components/Projects'
-
+import Time from './components/Time'
 export default {
   name:"App",
   components: {
     Header,
     Home,
-    Projects
+    Projects,
+    Time
   },
   data() {
     return {

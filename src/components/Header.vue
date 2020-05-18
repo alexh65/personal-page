@@ -6,8 +6,8 @@
       <router-link to="/favourite">Favourite</router-link>
     </div> -->
     <div class="social" >
-      <a href="https://github.com/alexh65"><font-awesome-icon :icon="['fab', 'instagram']" size="2x"/></a>
-      <a href="https://www.instagram.com/lexotterly/"><font-awesome-icon :icon="['fab', 'github']" size="2x" /></a>
+      <a href="https://www.instagram.com/lexotterly/"><font-awesome-icon :icon="['fab', 'instagram']" size="2x"/></a>
+      <a href="https://github.com/alexh65"><font-awesome-icon :icon="['fab', 'github']" size="2x" /></a>
     </div>
   </div>
 </template>
