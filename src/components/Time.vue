@@ -1,8 +1,8 @@
 <template>
   <div>
     <div id="time">
-      <h1>Significant Events</h1>
-      <vue-horizontal-timeline :items="items" :timeline-background="color"/>
+        <h1>Significant Events</h1>
+        <vue-horizontal-timeline :items="items" :timeline-background="color"/>  
     </div>
   </div>
 </template>
@@ -20,7 +20,7 @@ export default {
         },
         {
           title: 'June, 2015',
-          content: 'Graduated high school (The American School, Saigon, Vietnam). Fun fact: The class of 2015 had only 19 students.'
+          content: 'Graduated high school (The American School, Saigon, Vietnam). Fun fact: The class of 2015 only had 19 students.'
         },
         {
           title: 'January, 2016',
@@ -37,8 +37,7 @@ export default {
         {
           title: 'April, 2020',
           content: 'Got my first ever job at a nursing home during the COVID-19 outbreak. Quite an experience.'
-        },
-
+        }
       ]
     }
   }

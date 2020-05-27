@@ -5,6 +5,8 @@
       <Home class="section"/>
       <Time class="section"/>
       <Projects class="section"/>
+      <Favourite class="section"/>
+      <Inspire class="section"/>
     </full-page>
   </div>
 </template>
@@ -14,17 +16,22 @@ import Header from './components/Header'
 import Home from './components/Home'
 import Projects from './components/Projects'
 import Time from './components/Time'
+import Favourite from './components/Favourite'
+import Inspire from './components/Inspire'
 export default {
   name:"App",
   components: {
     Header,
     Home,
     Projects,
-    Time
+    Time,
+    Favourite,
+    Inspire
   },
   data() {
     return {
       options: {
+        navigation: true,
         autoScrolling:true,
         scrollingSpeed: 500,
         scrollHorizontally: true
@@ -35,8 +42,9 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 #app {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Roboto Mono', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #EA79A8;
@@ -59,5 +67,13 @@ body {
   justify-content: center;
   align-items: center;
 }
+::-webkit-scrollbar {
+  width: 0px;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
 
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, .1);
+  border-radius: 25px;
+}
 </style>

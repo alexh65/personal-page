@@ -5,11 +5,11 @@ import VueMaterial from 'vue-material'
 import 'vue-material/dist/vue-material.min.css'
 import 'vue-material/dist/theme/default.css'
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import VueHorizontalTimeline from "vue-horizontal-timeline"
 
-library.add(faGithub, faInstagram)
+library.add(faGithub, faInstagram, faLinkedin)
 Vue.component('font-awesome-icon', FontAwesomeIcon);
 
 Vue.config.productionTip = false
