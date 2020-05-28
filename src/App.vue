@@ -3,10 +3,15 @@
     <Header/>
     <full-page ref="fullpage" :options="options" id="fullpage">
       <Home class="section"/>
-      <Time class="section"/>
+      <Experience class="section"/>
       <Projects class="section"/>
+      <Time class="section"/>
       <Favourite class="section"/>
       <Inspire class="section"/>
+      <div id="farewell" class="section">
+        Thank you for visiting my website! Have a good day! <br>
+        - Alex
+      </div>
     </full-page>
   </div>
 </template>
@@ -18,6 +23,7 @@ import Projects from './components/Projects'
 import Time from './components/Time'
 import Favourite from './components/Favourite'
 import Inspire from './components/Inspire'
+import Experience from './components/Experience'
 export default {
   name:"App",
   components: {
@@ -26,7 +32,8 @@ export default {
     Projects,
     Time,
     Favourite,
-    Inspire
+    Inspire,
+    Experience,
   },
   data() {
     return {
@@ -75,5 +82,9 @@ body {
 ::-webkit-scrollbar-thumb {
   background: rgba(0, 0, 0, .1);
   border-radius: 25px;
+}
+#farewell {
+  font-weight: bolder;
+  font-size: 1.6vw;
 }
 </style>

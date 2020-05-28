@@ -37,6 +37,10 @@ export default {
         {
           title: 'April, 2020',
           content: 'Got my first ever job at a nursing home during the COVID-19 outbreak. Quite an experience.'
+        },
+        {
+          title: 'May, 2020',
+          content: 'Started working at Robokids Burnaby as their coding instructor. It\'s my first co-op work term.'
         }
       ]
     }
@@ -46,7 +50,7 @@ export default {
 
 <style scoped>
 #time {
-  width: 70vw;
+  width: 65vw;
   text-align: center;
 }
 </style>

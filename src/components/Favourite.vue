@@ -75,10 +75,10 @@ p {
 }
 #interest {
   background-color: #287cbd;
-  width: 75%;
+  width: 80%;
   padding: 20px;
   text-align: center;
   border-radius: 5px;
-  line-height: 3vw;
+  line-height: 2.2vw;
 }
 </style>

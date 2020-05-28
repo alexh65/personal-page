@@ -27,8 +27,8 @@ img {
   border-radius: 5px;
 }
 #intro {
-  font-size: 2.3vw;
-  line-height: 2.3vw;
+  font-size: 2.2vw;
+  line-height: 2.2vw;
   background-color: #287cbd;
   width: 75%;
   padding: 20px;

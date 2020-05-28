@@ -1,6 +1,14 @@
 <template>
   <div id="header">
     <h1>Alex Hoang</h1>
+    <div class="contact">
+      <font-awesome-icon :icon="['fas', 'envelope']" />
+      <p>nhuhoang1012@gmail.com</p>
+    </div>
+    <div class="contact"> 
+      <font-awesome-icon :icon="['fas', 'mobile-alt']" />
+      <p>(778) 858-2565</p>
+    </div>
     <div class="social" >
       <a href="https://www.instagram.com/lexotterly/"><font-awesome-icon :icon="['fab', 'instagram']" size="2x"/></a>
       <a href="https://github.com/alexh65"><font-awesome-icon :icon="['fab', 'github']" size="2x" /></a>
@@ -15,6 +23,16 @@
   margin: 0;
   display: flex;
   flex-direction: column;
+  text-align: center;
+}
+p{
+  margin: 0;
+  margin-left: 5px;
+  margin-right:5px;
+}
+
+.contact {
+  padding-bottom: 10px;
 }
 
 h1 {
