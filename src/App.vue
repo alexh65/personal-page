@@ -5,6 +5,7 @@
       <Home class="section"/>
       <Experience class="section"/>
       <Projects class="section"/>
+      <Photoshop class="section"/>
       <Time class="section"/>
       <Favourite class="section"/>
       <Inspire class="section"/>
@@ -24,6 +25,8 @@ import Time from './components/Time'
 import Favourite from './components/Favourite'
 import Inspire from './components/Inspire'
 import Experience from './components/Experience'
+import Photoshop from './components/Photoshop'
+
 export default {
   name:"App",
   components: {
@@ -34,6 +37,7 @@ export default {
     Favourite,
     Inspire,
     Experience,
+    Photoshop
   },
   data() {
     return {
@@ -86,5 +90,6 @@ body {
 #farewell {
   font-weight: bolder;
   font-size: 1.6vw;
+  line-height: 1.6vw;
 }
 </style>

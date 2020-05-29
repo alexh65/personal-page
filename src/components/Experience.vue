@@ -3,31 +3,26 @@
     <h1>Skills</h1>
     <div id="experience" class="md-layout">
       <div class="list md-layout-item">
-        <h2>Languages</h2> 
-        <ul>
-          <li>Java</li>
-          <li>HTML/CSS/Javascript</li>
-          <li>C++</li>
-          <li>Python</li>
-        </ul>
+        <h2>Languages + Frameworks</h2> 
+        Java <br>
+        HTML/CSS/Javascript <br>
+        C++ <br>
+        Python <br>
+        Vue/Springboot
       </div>
       <div class="list md-layout-item">
         <h2>Software + IDEs</h2>
-        <ul>
-          <li>IntelliJ</li>
-          <li>Visual Studio Code</li>
-          <li>Photoshop</li>
-          <li>Premiere Rush</li>
-          <li>TinkerCad</li>
-        </ul>
+        IntelliJ <br>
+        Visual Studio Code <br>
+        Photoshop <br>
+        Premiere Rush <br>
+        TinkerCad
       </div>
       <div class="list md-layout-item">
         <h2>Other</h2>
-        <ul>
-          <li>Can type 60 WPM</li>
-          <li>Can speak and write in Vietnamese</li>
-          <li>Can play the ukulele</li>
-        </ul>
+        Can type 60 WPM <br>
+        Can speak and write in Vietnamese <br>
+        Can play the ukulele
       </div>
     </div>
   </div>
@@ -40,14 +35,13 @@
 .list {
   background-color: #287cbd;
   margin: 10px;
-  padding: 10px;
+  padding: 20px;
+  font-size: 1.3vw;
+  line-height: 2vw;
 }
 h2 {
+  margin:0;
+  margin-bottom: 10px;
   text-align: center;
-}
-li{
-  list-style-type: none;
-  font-size: 1.4vw;
-  line-height: 1.4vw;
 }
 </style>
