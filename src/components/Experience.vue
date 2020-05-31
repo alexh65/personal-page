@@ -30,7 +30,7 @@
 
 <style scoped>
 #experience {
-  width: 80%;
+  width: 85%;
 }
 .list {
   background-color: #287cbd;
@@ -38,6 +38,7 @@
   padding: 20px;
   font-size: 1.3vw;
   line-height: 2vw;
+  border-radius: 5px;
 }
 h2 {
   margin:0;

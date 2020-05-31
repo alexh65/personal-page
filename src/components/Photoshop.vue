@@ -43,7 +43,6 @@
   #photoshop{
     width: 85%;
     text-align: center;
-    font-size: 1.2vw;
   }
 
   .gallery{
@@ -69,5 +68,7 @@
     border-radius: 5px;
     vertical-align: middle;
     padding: 10px;
+    line-height: 1.2vw;
+    font-size: 1.2vw;
   }
 </style>

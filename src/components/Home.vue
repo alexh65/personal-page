@@ -27,11 +27,11 @@ img {
   border-radius: 5px;
 }
 #intro {
-  font-size: 2.2vw;
-  line-height: 2.2vw;
+  font-size: 2vw;
+  line-height: 2vw;
   background-color: #287cbd;
-  width: 75%;
-  padding: 20px;
+  width: 85%;
+  padding: 10px;
   top: 50%;
   text-align: center;
   border-radius: 5px;

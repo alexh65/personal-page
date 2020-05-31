@@ -2,7 +2,7 @@
   <div>
     <div id="time">
         <h1>Significant Events</h1>
-        <vue-horizontal-timeline :items="items" :timeline-background="color"/>  
+        <vue-horizontal-timeline :items="items" :timeline-background="color" :timeline-padding="padd"/>  
     </div>
   </div>
 </template>
@@ -13,6 +13,7 @@ export default {
   data() {
     return {
       color: '#287cbd',
+      padd: '20px',
       items: [
         {
           title: 'April, 2014',
@@ -50,7 +51,7 @@ export default {
 
 <style scoped>
 #time {
-  width: 65vw;
+  width: 70vw;
   text-align: center;
 }
 </style>
