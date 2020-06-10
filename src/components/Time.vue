@@ -29,7 +29,7 @@ export default {
         },
         {
           title: 'April, 2018',
-          content: 'Graduated with Distinction and got my Associate of Science Degree in Computer Science from Langara. I also got accepted to Simon Fraser University in the same year.'
+          content: 'Graduated with Distinction and got my A.S. in Computer Science from Langara. I got accepted to Simon Fraser University in the same year.'
         },
         {
           title: 'Feb, 2020',
