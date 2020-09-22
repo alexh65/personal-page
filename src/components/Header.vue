@@ -11,7 +11,7 @@
         <p>(778)858-2565</p>
       </div>
       <div class="social" >
-        <a href="https://www.instagram.com/lexotterly/"><font-awesome-icon :icon="['fab', 'instagram']" size="2x"/></a>
+        <!--<a href="https://www.instagram.com/lexotterly/"><font-awesome-icon :icon="['fab', 'instagram']" size="2x"/></a>-->
         <a href="https://github.com/alexh65"><font-awesome-icon :icon="['fab', 'github']" size="2x" /></a>
         <a href="https://www.linkedin.com/in/nhu-hoang-77b02b19a/"><font-awesome-icon :icon="['fab', 'linkedin']" size="2x" /></a>
       </div>

@@ -3,11 +3,12 @@
     <div id="intro">
       <img alt="My Selfie" src="../assets/selfie.png">
       <p>Hello there! Welcome to my website! I'm a fourth-year Software System student at 
-        Simon Fraser University, BC. I'm interested in full-stack development 
+        Simon Fraser University, BC. I'm interested in full-stack web development, UI/UX 
         and graphic design, neither of which I'm entirely good at. However, I am passionate and 
         willing to learn new things. Please take a look down below to understand me a little
         bit better.
       </p>
+      <p>(Disclaimer: the page is still in development. It will look its best in fullscreen)</p>
     </div>
   </div>
 </template>
