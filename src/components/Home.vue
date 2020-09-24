@@ -4,7 +4,7 @@
       <img alt="My Selfie" src="../assets/selfie.png">
       <p>Hello there! Welcome to my website! I'm a fourth-year Software System student at 
         Simon Fraser University, BC. I'm interested in full-stack web development, UI/UX 
-        and graphic design, neither of which I'm entirely good at. However, I am passionate and 
+        and graphic design, none of which I'm entirely good at. However, I am passionate and 
         willing to learn new things. Please take a look down below to understand me a little
         bit better.
       </p>
