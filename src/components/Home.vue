@@ -8,7 +8,7 @@
         willing to learn new things. Please take a look down below to understand me a little
         bit better.
       </p>
-      <p>(Disclaimer: the page is still in development. It will look its best in fullscreen)</p>
+      <p>(Disclaimer: The page will look its best in fullscreen)</p>
     </div>
   </div>
 </template>
